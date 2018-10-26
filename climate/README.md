@@ -1,9 +1,13 @@
-1.原插件地址：https://github.com/syssi/xiaomi_airconditioningcompanion
+1.miio.py
 
-2.修改功能
-- 增加配置内置红外码
-- 通过服务方式调用预设内置红外码
+- 原插件地址
 
-3.使用说明
+https://github.com/syssi/xiaomi_airconditioningcompanion
 
-见[个人blog](https://ljr.im/2018/10/26/ha-plugin-·-change-bolian-rm-and-airconditioning-partner-infrared-function/)
+- 修改功能
+  - 增加配置内置红外码
+  - 通过服务方式调用预设内置红外码
+  
+- 使用说明
+
+  见[个人blog](https://ljr.im/2018/10/26/ha-plugin-·-change-bolian-rm-and-airconditioning-partner-infrared-function/)
