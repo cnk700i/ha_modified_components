@@ -1,0 +1,2 @@
+# ha_modified_components
+一些经过个人修改的home assistant插件
