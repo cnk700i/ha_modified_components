@@ -13,3 +13,4 @@ https://github.com/home-assistant/home-assistant/blob/0.80.0/homeassistant/compo
 3.使用说明
 
   见[个人blog](https://ljr.im/2018/10/26/ha-plugin-·-change-bolian-rm-and-airconditioning-partner-infrared-function/)
+
