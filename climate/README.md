@@ -1,4 +1,4 @@
-## miio.py ##
+## xiaomi_miio.py ##
 
 1.原插件地址
 
