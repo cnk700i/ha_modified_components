@@ -45,7 +45,6 @@ ATTR_FAN_SPEED = 'fan_speed'
 ATTR_LOAD_POWER = 'load_power'
 ATTR_LED = 'led'
 ATTR_LAST_TRIGGERED = 'last_triggered'
-
 SUPPORT_FLAGS = (SUPPORT_ON_OFF |
                  SUPPORT_TARGET_TEMPERATURE |
                  SUPPORT_FAN_MODE |
