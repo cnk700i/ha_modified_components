@@ -38,7 +38,6 @@ CONF_SLOTS = 'slots'
 CONF_COMMAND = 'command'
 CONF_COMMAND_NAME = 'command_name'
 
-
 SERVICE_LEARN_COMMAND = 'broadlink_rm_learn_command'
 SERVICE_SEND_COMMAND = 'broadlink_rm_send_command'
 DATA_KEY = 'switch.broadlink'
