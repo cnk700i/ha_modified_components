@@ -2,7 +2,7 @@
 
 1.原插件地址
 
-https://github.com/syssi/xiaomi_airconditioningcompanion
+https://github.com/home-assistant/home-assistant/blob/0.80.0/homeassistant/components/switch/broadlink.py
 
 2.修改功能
   - 修正开关复位的bug
