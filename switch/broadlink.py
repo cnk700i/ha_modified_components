@@ -25,7 +25,7 @@ from homeassistant.util.dt import utcnow
 REQUIREMENTS = ['broadlink==0.9.0']
 
 _LOGGER = logging.getLogger(__name__)
-_LOGGER.setLevel(logging.DEBUG)
+#_LOGGER.setLevel(logging.DEBUG)
 
 TIME_BETWEEN_UPDATES = timedelta(seconds=5)
 
