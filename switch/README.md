@@ -6,7 +6,7 @@ https://github.com/home-assistant/home-assistant/blob/0.80.0/homeassistant/compo
 
 2.修改功能
   - 修正开关复位的bug
-  - 增加显示不可用状态
+  - 增加显示不可用状态（mp1类型）
   - 增加配置内置红外码
   - 通过服务方式调用预设内置红外码
   
