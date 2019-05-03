@@ -1,0 +1,10 @@
+{
+  "domain": "hf_weather",
+  "name": "he feng weather",
+  "documentation": "https://ljr.im",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@cnk700i"
+  ]
+}
