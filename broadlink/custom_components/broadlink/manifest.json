@@ -1,0 +1,12 @@
+{
+  "domain": "broadlink",
+  "name": "Broadlink",
+  "documentation": "https://ljr.im",
+  "requirements": [
+    "broadlink==0.9.0"
+  ],
+  "dependencies": [],
+  "codeowners": [
+    "@danielhiversen", "@cnk700i"
+  ]
+}
