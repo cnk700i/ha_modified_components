@@ -157,8 +157,10 @@ class HeFengWeather(WeatherEntity):
     @property
     def condition(self):
         """Return the weather condition."""
-        return [k for k, v in CONDITION_CLASSES.items() if
-                self._condition in v][0]
+        if self._condition:
+            return [k for k, v in CONDITION_CLASSES.items() if self._condition in v][0]
+        else:
+            return 'unknown'
 
     @property
     def attribution(self):
@@ -176,7 +178,7 @@ class HeFengWeather(WeatherEntity):
                 ATTR_AQI: self._aqi,
                 ATTR_HOURLY_FORECAST: self.hourly_forecast,
                 ATTR_SUGGESTION: self._suggestion,
-                ATTR_CUSTOM_UI_MORE_INFO: "hf_weather-more-info"
+                ATTR_CUSTOM_UI_MORE_INFO: "he_weather-more-info"
             }
 
     @property
@@ -186,6 +188,7 @@ class HeFengWeather(WeatherEntity):
         reftime = datetime.now()
 
         forecast_data = []
+        _LOGGER.debug('daily_forecast: %s', self._daily_forecast)
         for entry in self._daily_forecast:
             data_dict = {
                 ATTR_FORECAST_CONDITION: entry[0],
@@ -204,6 +207,7 @@ class HeFengWeather(WeatherEntity):
     def hourly_forecast(self):
         """Return the forecast."""
         forecast_data = []
+        _LOGGER.debug('hourly_forecast: %s', self._hourly_forecast)
         for entry in self._hourly_forecast:
             data_dict = {
                 ATTR_FORECAST_CONDITION: entry[0],
