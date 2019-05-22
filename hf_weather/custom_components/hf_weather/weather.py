@@ -184,7 +184,8 @@ class HeFengWeather(WeatherEntity):
     @property
     def forecast(self):
         """Return the forecast."""
-
+        if self._daily_forecast is None:
+            return None
         reftime = datetime.now()
 
         forecast_data = []
@@ -206,6 +207,8 @@ class HeFengWeather(WeatherEntity):
     @property
     def hourly_forecast(self):
         """Return the forecast."""
+        if self._hourly_forecast is None:
+            return None
         forecast_data = []
         _LOGGER.debug('hourly_forecast: %s', self._hourly_forecast)
         for entry in self._hourly_forecast:
