@@ -178,7 +178,7 @@ class HeFengWeather(WeatherEntity):
                 ATTR_AQI: self._aqi,
                 ATTR_HOURLY_FORECAST: self.hourly_forecast,
                 ATTR_SUGGESTION: self._suggestion,
-                ATTR_CUSTOM_UI_MORE_INFO: "he_weather-more-info"
+                ATTR_CUSTOM_UI_MORE_INFO: "hf_weather-more-info"
             }
 
     @property
