@@ -303,7 +303,7 @@ class WeatherCardChart extends Polymer.Element {
                 <div>
                   <i class="icon" style="background: none, url([[getWeatherIcon(item.condition)]]) no-repeat; background-size: contain;"></i>
 
-                  <div style="text-align: center;">[[item.probable_precipitation]]</div>
+                  <div style="text-align: center;">[[computeProbablePrecipitation(item.probable_precipitation)]]</div>
                 </div>
               </template>
             </div>
@@ -316,7 +316,7 @@ class WeatherCardChart extends Polymer.Element {
                 <div>
                   <i class="icon" style="background: none, url([[getWeatherIcon(item.condition)]]) no-repeat; background-size: contain;"></i>
 
-                  <div style="text-align: center;">[[item.probable_precipitation]]</div>
+                  <div style="text-align: center;">[[computeProbablePrecipitation(item.probable_precipitation)]]</div>
                 </div>
               </template>
             </div>
@@ -448,6 +448,11 @@ class WeatherCardChart extends Polymer.Element {
     var calcSpeed = Math.round(speed * 1000 / 3600);
     return calcSpeed;
   }
+
+  computeProbablePrecipitation(probability){
+    return probability/100;
+  }
+
 
   getCardSize() {
     return 4;
@@ -616,6 +621,8 @@ class WeatherCardChart extends Polymer.Element {
               borderDash: [1,3],
             },
             ticks: {
+              maxTicksLimit:8,
+              stepSize:1,
               display: true,
               fontColor: textColor,
             },
