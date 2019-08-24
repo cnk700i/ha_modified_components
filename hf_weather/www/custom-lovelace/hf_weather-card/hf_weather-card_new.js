@@ -271,7 +271,7 @@ class WeatherCardChart extends Polymer.Element {
               </template>
             </div>
 
-            <div class="attributes" on-click="_weatherAttr">
+            <div class="attributes">
               <template is="dom-if" if="[[sunObj]]">
               <div on-click="_sunAttr">
                 <div>
