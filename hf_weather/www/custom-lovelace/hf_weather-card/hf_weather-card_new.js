@@ -537,7 +537,7 @@ class WeatherCardChart extends Polymer.Element {
     var pop = [];
     for (i = 0; i < data.length; i++) {
       var d = data[i];
-      dateTime.push(new Date(d.datetime));
+      dateTime.push(new Date(Date.parse(d.datetime.replace(/-/g, '/'))));
       tempHigh.push(d.temperature);
       tempLow.push(d.templow);
       precip.push(d.precipitation);
@@ -654,10 +654,11 @@ class WeatherCardChart extends Polymer.Element {
               fontColor: textColor,
               maxRotation: 0,
               callback: function(value, index, values) {
-                var data = new Date(value).toLocaleDateString(locale,
+                var data = value.toLocaleDateString(locale,
                   { weekday: 'short' });
-                var time = new Date(value).toLocaleTimeString('en',
+                var time = value.toLocaleTimeString('en',
                   { hour: 'numeric' });
+
                 if (mode == 'hourly') {
                   return time;
                 }
