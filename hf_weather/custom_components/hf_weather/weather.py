@@ -43,7 +43,7 @@ CONDITION_CLASSES = {
     'windy': ["有风", "微风", "和风", "清风"],
     'windy-variant': ["强风", "疾风", "大风", "烈风"],
     'hurricane': ["飓风", "龙卷风", "热带风暴", "狂暴风", "风暴"],
-    'rainy': ["毛毛雨", "小雨", "中雨", "大雨", "阵雨", "极端降雨"],
+    'rainy': ["雨", "毛毛雨", "小雨", "中雨", "大雨", "阵雨", "极端降雨"],
     'pouring': ["暴雨", "大暴雨", "特大暴雨", "强阵雨"],
     'lightning-rainy': ["雷阵雨", "强雷阵雨"],
     'fog': ["雾", "薄雾"],
@@ -158,7 +158,8 @@ class HeFengWeather(WeatherEntity):
     def condition(self):
         """Return the weather condition."""
         if self._condition:
-            return [k for k, v in CONDITION_CLASSES.items() if self._condition in v][0]
+            match_list = [k for k, v in CONDITION_CLASSES.items() if self._condition in v]
+            return match_list[0] if match_list else 'unknown'
         else:
             return 'unknown'
 
