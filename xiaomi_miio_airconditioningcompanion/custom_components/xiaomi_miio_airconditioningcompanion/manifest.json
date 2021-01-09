@@ -1,13 +1,14 @@
 {
   "domain": "xiaomi_miio_airconditioningcompanion",
   "name": "Xiaomi Mi and Aqara Air Conditioning Companion",
+  "config_flow": false,
   "documentation": "https://ljr.im",
   "requirements": [
-    "construct==2.9.45",
-    "python-miio==0.4.5"
+    "construct==2.10.56",
+    "python-miio>=0.5.3"
   ],
   "dependencies": ["sensor"],
   "codeowners": [
-    "syssi", "@cnk700i"
+    "@syssi", "@cnk700i"
   ]
 }
