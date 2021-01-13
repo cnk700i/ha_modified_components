@@ -329,7 +329,7 @@ class WeatherCardChart extends Polymer.Element {
 
           <template is="dom-if" if="[[hourlyForecast]]">
           <div class="chart-title">天气预报-小时</div>
-            <ha-chart-base data="[[HourlyForecastChartData]]"></ha-chart-base>
+            <ha-chart-base hass="[[_hass]]" data="[[HourlyForecastChartData]]"></ha-chart-base>
             <div class="conditions">
               <template is="dom-repeat" items="[[hourlyForecast]]">
                 <div>
@@ -340,7 +340,7 @@ class WeatherCardChart extends Polymer.Element {
           </template>
           <template is="dom-if" if="[[dailyForecast]]">
             <div class="chart-title">天气预报-天</div>
-            <ha-chart-base data="[[DailyForecastChartData]]"></ha-chart-base>
+            <ha-chart-base hass="[[_hass]]" data="[[DailyForecastChartData]]"></ha-chart-base>
             <div class="conditions">
               <template is="dom-repeat" items="[[dailyForecast]]">
                 <div>
