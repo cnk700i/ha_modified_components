@@ -12,7 +12,16 @@
 - 天气卡片使用动态图标
 
 ### 使用说明 ###
-见[个人blog](https://ljr.im/articles/plugin-%C2%B7-change-lovelace-weather-card-based-on-windy/)
+见[个人blog](https://ljr.im/articles/plugin-%C2%B7-change-lovelace-weather-card-based-on-windy/) 
+
+#### UI配置
+```yaml
+type: custom:hf_weather-card
+entity: weather.air
+mode: daily
+title: 天气
+icons: /local/hf_weather-card/icons/animated/
+```
 
 ### 参考 ###
 - [和风天气插件组][1]
@@ -22,3 +31,4 @@
 [1]: https://bbs.hassbian.com/thread-3971-1-1.html "和风天气插件组(天气预报+生活提示+小时预报+空气质量)"
 [2]: https://github.com/sgttrs/lovelace-weather-card-chart "lovelace-weather-card-chart"
 [3]: https://github.com/bramkragten/custom-ui/tree/master/weather-card "weather-card"
+
