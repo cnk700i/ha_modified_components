@@ -651,7 +651,7 @@ class WeatherCardChart extends Polymer.Element {
     const unitMap = {
       TempAxis: this._hass.config.unit_system.temperature,
       PopAxis: "%",
-      PrecipAxis: lengthUnit === "km" ? this.ll("uPrecip") : "in"
+      PrecipAxis: lengthUnit === "km" ? this.ll("uPrecip") : "in",
     };
     var i;
 
@@ -718,31 +718,16 @@ class WeatherCardChart extends Polymer.Element {
       ],
       labels: dateTime,
       options: {
-        // animation: {
-        //   duration: 300,
-        //   easing: 'linear',
-        //   onComplete: function () {
-        //     var chartInstance = this.chart,
-        //       ctx = chartInstance.ctx;
-        //     ctx.fillStyle = textColor;
-        //     var fontSize = 10;
-        //     var fontStyle = 'normal';
-        //     var fontFamily = 'Roboto';
-        //     ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-        //     ctx.textAlign = 'center';
-        //     ctx.textBaseline = 'bottom';
-        //     var meta = chartInstance.controller.getDatasetMeta(3);
-        //     meta.data.forEach(function (bar, index) {
-        //       var data = (Math.round((chartInstance.data.datasets[3].data[index]) * 10) / 10).toFixed(1);
-        //       ctx.fillText(data, bar._model.x, bar._model.y - 5);
-        //     });
-        //     var meta2 = chartInstance.controller.getDatasetMeta(2);
-        //     meta2.data.forEach(function (bar, index) {
-        //       var data = chartInstance.data.datasets[2].data[index] + '%';
-        //       ctx.fillText(data, bar._model.x, bar._model.y - 5);
-        //     });
-        //   },
-        // },
+        animation: {
+          x: {
+            duration: 300,
+            from: 0,
+          },
+          y: {
+            duration: 1500,
+            from: 0,
+          },
+        },
         legend: {
           display: false,
         },
@@ -857,7 +842,13 @@ class WeatherCardChart extends Polymer.Element {
               },
               label: function (context) {
                 var label = context.dataset.label || "";
-                return label + ": " + context.parsed.y + " " + unitMap[context.dataset.yAxisID];
+                return (
+                  label +
+                  ": " +
+                  context.parsed.y +
+                  " " +
+                  unitMap[context.dataset.yAxisID]
+                );
               },
             },
           },
