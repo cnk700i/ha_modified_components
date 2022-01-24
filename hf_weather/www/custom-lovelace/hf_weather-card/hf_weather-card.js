@@ -1,5 +1,5 @@
 const locale = {
-  'zh-Hans':{
+  "zh-Hans": {
     tempHi: "最高温度",
     tempLo: "最低温度",
     precip: "降水量",
@@ -8,12 +8,25 @@ const locale = {
     uSpeed: "米/秒",
     uPrecip: "毫米",
     cardinalDirections: [
-      '北', '北-东北', '东北', '东-东北', '东', '东-东南', '东南', '南-东南',
-      '南', '南-西南', '西南', '西-西南', '西', '西-西北', '西北', '北-西北', '北'
+      "北",
+      "北-东北",
+      "东北",
+      "东-东北",
+      "东",
+      "东-东南",
+      "东南",
+      "南-东南",
+      "南",
+      "南-西南",
+      "西南",
+      "西-西南",
+      "西",
+      "西-西北",
+      "西北",
+      "北-西北",
+      "北",
     ],
-    aqiLevels: [
-      '优', '良', '轻度污染', '中度污染', '重度污染', '严重污染'
-    ]
+    aqiLevels: ["优", "良", "轻度污染", "中度污染", "重度污染", "严重污染"],
   },
   da: {
     tempHi: "Temperatur",
@@ -23,9 +36,24 @@ const locale = {
     uSpeed: "m/s",
     uPrecip: "mm",
     cardinalDirections: [
-      'N', 'N-NØ', 'NØ', 'Ø-NØ', 'Ø', 'Ø-SØ', 'SØ', 'S-SØ',
-      'S', 'S-SV', 'SV', 'V-SV', 'V', 'V-NV', 'NV', 'N-NV', 'N'
-    ]
+      "N",
+      "N-NØ",
+      "NØ",
+      "Ø-NØ",
+      "Ø",
+      "Ø-SØ",
+      "SØ",
+      "S-SØ",
+      "S",
+      "S-SV",
+      "SV",
+      "V-SV",
+      "V",
+      "V-NV",
+      "NV",
+      "N-NV",
+      "N",
+    ],
   },
   en: {
     tempHi: "Temperature",
@@ -35,9 +63,24 @@ const locale = {
     uSpeed: "m/s",
     uPrecip: "mm",
     cardinalDirections: [
-      'N', 'N-NE', 'NE', 'E-NE', 'E', 'E-SE', 'SE', 'S-SE',
-      'S', 'S-SW', 'SW', 'W-SW', 'W', 'W-NW', 'NW', 'N-NW', 'N'
-    ]
+      "N",
+      "N-NE",
+      "NE",
+      "E-NE",
+      "E",
+      "E-SE",
+      "SE",
+      "S-SE",
+      "S",
+      "S-SW",
+      "SW",
+      "W-SW",
+      "W",
+      "W-NW",
+      "NW",
+      "N-NW",
+      "N",
+    ],
   },
   fr: {
     tempHi: "Température",
@@ -47,9 +90,24 @@ const locale = {
     uSpeed: "m/s",
     uPrecip: "mm",
     cardinalDirections: [
-      'N', 'N-NE', 'NE', 'E-NE', 'E', 'E-SE', 'SE', 'S-SE',
-      'S', 'S-SO', 'SO', 'O-SO', 'O', 'O-NO', 'NO', 'N-NO', 'N'
-    ]
+      "N",
+      "N-NE",
+      "NE",
+      "E-NE",
+      "E",
+      "E-SE",
+      "SE",
+      "S-SE",
+      "S",
+      "S-SO",
+      "SO",
+      "O-SO",
+      "O",
+      "O-NO",
+      "NO",
+      "N-NO",
+      "N",
+    ],
   },
   nl: {
     tempHi: "Maximum temperatuur",
@@ -59,9 +117,24 @@ const locale = {
     uSpeed: "m/s",
     uPrecip: "mm",
     cardinalDirections: [
-      'N', 'N-NO', 'NO', 'O-NO', 'O', 'O-ZO', 'ZO', 'Z-ZO',
-      'Z', 'Z-ZW', 'ZW', 'W-ZW', 'W', 'W-NW', 'NW', 'N-NW', 'N'
-    ]
+      "N",
+      "N-NO",
+      "NO",
+      "O-NO",
+      "O",
+      "O-ZO",
+      "ZO",
+      "Z-ZO",
+      "Z",
+      "Z-ZW",
+      "ZW",
+      "W-ZW",
+      "W",
+      "W-NW",
+      "NW",
+      "N-NW",
+      "N",
+    ],
   },
   ru: {
     tempHi: "Температура",
@@ -71,9 +144,24 @@ const locale = {
     uSpeed: "м/с",
     uPrecip: "мм",
     cardinalDirections: [
-      'С', 'С-СВ', 'СВ', 'В-СВ', 'В', 'В-ЮВ', 'ЮВ', 'Ю-ЮВ',
-      'Ю', 'Ю-ЮЗ', 'ЮЗ', 'З-ЮЗ', 'З', 'З-СЗ', 'СЗ', 'С-СЗ', 'С'
-    ]
+      "С",
+      "С-СВ",
+      "СВ",
+      "В-СВ",
+      "В",
+      "В-ЮВ",
+      "ЮВ",
+      "Ю-ЮВ",
+      "Ю",
+      "Ю-ЮЗ",
+      "ЮЗ",
+      "З-ЮЗ",
+      "З",
+      "З-СЗ",
+      "СЗ",
+      "С-СЗ",
+      "С",
+    ],
   },
   sv: {
     tempHi: "Temperatur",
@@ -83,14 +171,28 @@ const locale = {
     uSpeed: "m/s",
     uPrecip: "mm",
     cardinalDirections: [
-      'N', 'N-NO', 'NO', 'O-NO', 'O', 'O-SO', 'SO', 'S-SO',
-      'S', 'S-SV', 'SV', 'V-SV', 'V', 'V-NV', 'NV', 'N-NV', 'N'
-    ]
-  }
+      "N",
+      "N-NO",
+      "NO",
+      "O-NO",
+      "O",
+      "O-SO",
+      "SO",
+      "S-SO",
+      "S",
+      "S-SV",
+      "SV",
+      "V-SV",
+      "V",
+      "V-NV",
+      "NV",
+      "N-NV",
+      "N",
+    ],
+  },
 };
 
 class WeatherCardChart extends Polymer.Element {
-
   static get template() {
     return Polymer.html`
       <style>
@@ -138,9 +240,10 @@ class WeatherCardChart extends Polymer.Element {
         }
         .main {
           display: flex;
-          font-size: 48px;
+          font-size: 3.5em;
           align-items: center;
           line-height: 1em;
+          width: 50%;
         }
         .main ha-icon {
           --iron-icon-height: 72px;
@@ -155,21 +258,28 @@ class WeatherCardChart extends Polymer.Element {
           font-size: 24px;
         }
         .suggestion {
+          width:100%;
           cursor: pointer;
           display: flex;
-          font-size: 14px;
+          font-size: 1em;
           color: var(--secondary-text-color);
           justify-content: space-between;
-        }
-        .suggestion div {
-          margin-left: 15px;
+          margin: 5px 0px 5px 0px;
         }
         .attributes {
+          width: 50%;
           cursor: pointer;
-          display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 5px 0px 10px 0px;
+          margin: 5px 0px 5px 0px;
+        }
+        .attributes div{
+          display: flex;
+        }
+        .attributes div div{
+          width: 50%;
+          margin: 5px 5px 0px 5px;
+          align-items: center;
         }
         .chart-title {
           font-size: 16px;
@@ -181,7 +291,10 @@ class WeatherCardChart extends Polymer.Element {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          margin: 0px 3px 0px 16px;
+          margin: 0 7% 0 7%;
+        }
+        .conditions div {
+          width: 13%;
         }
         .aqi,
         .alarm {
@@ -218,11 +331,12 @@ class WeatherCardChart extends Polymer.Element {
           width: 2em;
           height: 2em;
           left: 0em;
+          padding-top: 0%;
         }
 
         .icon {
-          width: 50px;
-          height: 50px;
+          width: 100%;
+          padding-top: 100%;
           display: inline-block;
           vertical-align: middle;
           background-size: contain;
@@ -257,66 +371,82 @@ class WeatherCardChart extends Polymer.Element {
               <template is="dom-if" if="[[!tempObj]]">
                 <div on-click="_weatherAttr">[[roundNumber(weatherObj.attributes.temperature)]]<sup>[[getUnit('temperature')]]</sup></div>
               </template>
-              <template is="dom-if" if="[[weatherObj.attributes.alarm]]">
-                <div class="alarm" on-click="_weatherAttr">
-                  台风预警
-                </div>
-              </template>
             </div>
 
+            <div class="attributes">
+              <template is="dom-if" if="[[sunObj]]">
+              <div on-click="_sunAttr">
+                <div>
+                  <ha-icon icon="mdi:weather-sunset-up"></ha-icon>&nbsp;[[computeTime(sunObj.attributes.next_rising)]]
+                </div>
+                <div>
+                  <ha-icon icon="mdi:weather-sunset-down"></ha-icon>&nbsp;[[computeTime(sunObj.attributes.next_setting)]]
+                </div>
+              </div>
+              </template>
+              <div on-click="_weatherAttr">
+                <div>
+                  <ha-icon icon="hass:water-percent"></ha-icon>&nbsp;[[roundNumber(weatherObj.attributes.humidity)]] %
+                </div>
+                <div>
+                  <ha-icon icon="hass:gauge"></ha-icon>&nbsp;[[roundNumber(weatherObj.attributes.pressure)]] [[ll('uPress')]]
+                </div>
+              </div>
+              <div on-click="_weatherAttr">
+                <div>
+                  <ha-icon icon="hass:[[getWindDirIcon(windBearing)]]"></ha-icon>&nbsp;[[getWindDir(windBearing)]]
+                </div>
+                <div>
+                  <ha-icon icon="hass:weather-windy"></ha-icon>&nbsp;[[computeWind(weatherObj.attributes.wind_speed)]] [[ll('uSpeed')]]
+                </div>
+              </div>
+            </div>
+            
+            <template is="dom-if" if="[[weatherObj.attributes.alarm]]">
+            <div class="alarm" on-click="_weatherAttr">
+              台风预警
+            </div>
+            </template>
             <div class="suggestion" on-click="_weatherAttr">
               <div>
-                <span> 舒适：[[getSuggestion("comf")]]</span><br>
-                <span> 穿衣：[[getSuggestion("drsg")]]</span><br>
                 <span> 空气：[[getSuggestion("air")]]</span><br>
-                <span> 感冒：[[getSuggestion("flu")]]	</span><br>	
+                <span> 舒适：[[getSuggestion("comf")]]</span>
+
               </div>
-              <div>          
+              <div>
+
+                <span> 感冒：[[getSuggestion("flu")]]</span><br>
+                <span> 穿衣：[[getSuggestion("drsg")]]</span>
+              </div>
+              <div>
                 <span> 紫外：[[getSuggestion("uv")]]</span><br>
-                <span> 运动：[[getSuggestion("sport")]]</span><br>	
-                <span> 旅游：[[getSuggestion("trav")]]</span><br>	
-                <span> 洗车：[[getSuggestion("cw")]]</span><br>
+                <span> 运动：[[getSuggestion("sport")]]</span>	
+              </div>
+              <div>
+                <span> 旅游：[[getSuggestion("trav")]]</span><br>
+                <span> 洗车：[[getSuggestion("cw")]]</span>
               </div>
             </div>
           </div>
-          <div class="attributes">
-            <div on-click="_weatherAttr">
-              <ha-icon icon="hass:water-percent"></ha-icon> [[roundNumber(weatherObj.attributes.humidity)]] %<br>
-              <ha-icon icon="hass:gauge"></ha-icon> [[roundNumber(weatherObj.attributes.pressure)]] [[ll('uPress')]]
-            </div>
-            <div on-click="_sunAttr">
-              <template is="dom-if" if="[[sunObj]]">
-                <ha-icon icon="mdi:weather-sunset-up"></ha-icon> [[computeTime(sunObj.attributes.next_rising)]]<br>
-                <ha-icon icon="mdi:weather-sunset-down"></ha-icon> [[computeTime(sunObj.attributes.next_setting)]]
-              </template>
-            </div>
-            <div on-click="_weatherAttr">
-              <ha-icon icon="hass:[[getWindDirIcon(windBearing)]]"></ha-icon> [[getWindDir(windBearing)]]<br>
-              <ha-icon icon="hass:weather-windy"></ha-icon> [[computeWind(weatherObj.attributes.wind_speed)]] [[ll('uSpeed')]]
-            </div>
-          </div>
+
           <template is="dom-if" if="[[hourlyForecast]]">
           <div class="chart-title">天气预报-小时</div>
-            <ha-chart-base data="[[HourlyForecastChartData]]"></ha-chart-base>
+            <ha-chart-base hass="[[_hass]]" data="[[HourlyForecastChartData]]" options="[[HourlyForecastChartData.options]]" ></ha-chart-base>
             <div class="conditions">
               <template is="dom-repeat" items="[[hourlyForecast]]">
                 <div>
                   <i class="icon" style="background: none, url([[getWeatherIcon(item.condition)]]) no-repeat; background-size: contain;"></i>
-
-                  <div style="text-align: center;">[[computeProbablePrecipitation(item.probable_precipitation)]]</div>
                 </div>
               </template>
             </div>
           </template>
           <template is="dom-if" if="[[dailyForecast]]">
             <div class="chart-title">天气预报-天</div>
-            <ha-chart-base data="[[DailyForecastChartData]]"></ha-chart-base>
+            <ha-chart-base hass="[[_hass]]" data="[[DailyForecastChartData]]" options="[[DailyForecastChartData.options]]" ></ha-chart-base>
             <div class="conditions">
               <template is="dom-repeat" items="[[dailyForecast]]">
                 <div>
                   <i class="icon" style="background: none, url([[getWeatherIcon(item.condition)]]) no-repeat; background-size: contain;"></i>
-
-                  <div style="text-align: center;">[[computeProbablePrecipitation(item.probable_precipitation)]]</div>
                 </div>
               </template>
             </div>
@@ -334,7 +464,7 @@ class WeatherCardChart extends Polymer.Element {
       mode: String,
       weatherObj: {
         type: Object,
-        observer: 'dataChanged',
+        observer: "dataChanged",
       },
     };
   }
@@ -342,50 +472,56 @@ class WeatherCardChart extends Polymer.Element {
   constructor() {
     super();
     this.weatherIcons = {
-      'clear-night': 'hass:weather-night',
-      'cloudy': 'hass:weather-cloudy',
-      'fog': 'hass:weather-fog',
-      'hail': 'hass:weather-hail',
-      'lightning': 'hass:weather-lightning',
-      'lightning-rainy': 'hass:weather-lightning-rainy',
-      'partlycloudy': 'hass:weather-partlycloudy',
-      'pouring': 'hass:weather-pouring',
-      'rainy': 'hass:weather-rainy',
-      'snowy': 'hass:weather-snowy',
-      'snowy-rainy': 'hass:weather-snowy-rainy',
-      'sunny': 'hass:weather-sunny',
-      'windy': 'hass:weather-windy',
-      'windy-variant': 'hass:weather-windy-variant'
+      "clear-night": "hass:weather-night",
+      cloudy: "hass:weather-cloudy",
+      fog: "hass:weather-fog",
+      hail: "hass:weather-hail",
+      lightning: "hass:weather-lightning",
+      "lightning-rainy": "hass:weather-lightning-rainy",
+      partlycloudy: "hass:weather-partlycloudy",
+      pouring: "hass:weather-pouring",
+      rainy: "hass:weather-rainy",
+      snowy: "hass:weather-snowy",
+      "snowy-rainy": "hass:weather-snowy-rainy",
+      sunny: "hass:weather-sunny",
+      windy: "hass:weather-windy",
+      "windy-variant": "hass:weather-windy-variant",
     };
     this.cardinalDirectionsIcon = [
-      'mdi:arrow-down', 'mdi:arrow-bottom-left', 'mdi:arrow-left',
-      'mdi:arrow-top-left', 'mdi:arrow-up', 'mdi:arrow-top-right',
-      'mdi:arrow-right', 'mdi:arrow-bottom-right', 'mdi:arrow-down'
+      "mdi:arrow-down",
+      "mdi:arrow-bottom-left",
+      "mdi:arrow-left",
+      "mdi:arrow-top-left",
+      "mdi:arrow-up",
+      "mdi:arrow-top-right",
+      "mdi:arrow-right",
+      "mdi:arrow-bottom-right",
+      "mdi:arrow-down",
     ];
     this.weatherIconsDay = {
-      'clear': 'day',
-      'clear-night': 'night',
-      'cloudy': 'cloudy',
-      'fog': 'cloudy',
-      'hail': 'rainy-7',
-      'lightning': 'thunder',
-      'lightning-rainy': 'thunder',
-      'partlycloudy': 'cloudy-day-3',
-      'pouring': 'rainy-6',
-      'rainy': 'rainy-5',
-      'snowy': 'snowy-6',
-      'snowy-rainy': 'rainy-7',
-      'sunny': 'day',
-      'windy': 'cloudy',
-      'windy-variant': 'cloudy-day-3',
-      exceptional: '!!'
+      clear: "day",
+      "clear-night": "night",
+      cloudy: "cloudy",
+      fog: "cloudy",
+      hail: "rainy-7",
+      lightning: "thunder",
+      "lightning-rainy": "thunder",
+      partlycloudy: "cloudy-day-3",
+      pouring: "rainy-6",
+      rainy: "rainy-5",
+      snowy: "snowy-6",
+      "snowy-rainy": "rainy-7",
+      sunny: "day",
+      windy: "cloudy",
+      "windy-variant": "cloudy-day-3",
+      exceptional: "!!",
     };
     this.weatherIconsNight = {
       ...this.weatherIconsDay,
-      'clear': 'night',
-      'sunny': 'night',
-      'partlycloudy': 'cloudy-night-3',
-      'windy-variant': 'cloudy-night-3'
+      clear: "night",
+      sunny: "night",
+      partlycloudy: "cloudy-night-3",
+      "windy-variant": "cloudy-night-3",
     };
   }
 
@@ -394,25 +530,41 @@ class WeatherCardChart extends Polymer.Element {
       throw new Error('Please define "weather" entity in the card config');
     }
     this.config = config;
-    this.mode = config.mode ? config.mode:'both';
-   }
+    this.mode = config.mode ? config.mode : "both";
+  }
 
   set hass(hass) {
     this._hass = hass;
-    this.lang = this._hass.selectedLanguage || this._hass.language;
-    this.weatherObj = this.config.entity in hass.states ? hass.states[this.config.entity] : null;
-    this.sunObj = 'sun.sun' in hass.states ? hass.states['sun.sun'] : null;
-    this.tempObj = this.config.temp in hass.states ? hass.states[this.config.temp] : null;
-    this.dailyForecast = this.mode == 'hourly' ? null:this.weatherObj.attributes.forecast.slice(0,9) ;
-    this.hourlyForecast = this.mode == 'daily' ? null:this.weatherObj.attributes.hourly_forecast.slice(0,9) ;
+    // this.lang = this._hass.selectedLanguage || this._hass.language;
+    this.lang = "zh-Hans";
+    this.weatherObj =
+      this.config.entity in hass.states
+        ? hass.states[this.config.entity]
+        : null;
+    this.sunObj = "sun.sun" in hass.states ? hass.states["sun.sun"] : null;
+    this.tempObj =
+      this.config.temp in hass.states ? hass.states[this.config.temp] : null;
+    this.dailyForecast =
+      this.mode == "hourly"
+        ? null
+        : this.weatherObj.attributes.forecast.slice(0, 9);
+    this.hourlyForecast =
+      this.mode == "daily"
+        ? null
+        : this.weatherObj.attributes.hourly_forecast.slice(0, 9);
     this.windBearing = this.weatherObj.attributes.wind_bearing;
     this.suggestion = this.weatherObj.attributes.suggestion;
-    this.title = this.config.title? this.config.title:this.weatherObj.attributes.friendly_name;
+    this.title = this.config.title
+      ? this.config.title
+      : this.weatherObj.attributes.friendly_name;
   }
 
   dataChanged() {
-    this.HourlyForecastChartData = this.drawChart('hourly', this.hourlyForecast);
-    this.DailyForecastChartData = this.drawChart('daily', this.dailyForecast);
+    this.HourlyForecastChartData = this.drawChart(
+      "hourly",
+      this.hourlyForecast
+    );
+    this.DailyForecastChartData = this.drawChart("daily", this.dailyForecast);
   }
 
   roundNumber(number) {
@@ -421,45 +573,44 @@ class WeatherCardChart extends Polymer.Element {
   }
 
   aqiLevel(aqi) {
-    return 'aqi_level_'+parseInt(aqi / 50.0)+'_bg';
+    return "aqi_level_" + parseInt(aqi / 50.0) + "_bg";
   }
 
   getSuggestion(type) {
-    for ( var i = 0; i <this.suggestion.length; i++){
-      if(this.suggestion[i].title == type){        
+    for (var i = 0; i < this.suggestion.length; i++) {
+      if (this.suggestion[i].title == type) {
         return this.suggestion[i].brf;
       }
-  }
+    }
   }
   ll(str) {
-    if (locale[this.lang] === undefined)
-      return locale.en[str];
+    if (locale[this.lang] === undefined) return locale.en[str];
     return locale[this.lang][str];
   }
 
   computeTime(time) {
     const date = new Date(time);
-    return date.toLocaleTimeString(this.lang,
-      { hour:'2-digit', minute:'2-digit' }
-    );
+    return date.toLocaleTimeString(this.lang, {
+      hour: "2-digit",
+      minute: "2-digit",
+    });
   }
 
   computeWind(speed) {
-    var calcSpeed = Math.round(speed * 1000 / 3600);
+    var calcSpeed = Math.round((speed * 1000) / 3600);
     return calcSpeed;
   }
 
-  computeProbablePrecipitation(probability){
-    return probability/100;
+  computeProbablePrecipitation(probability) {
+    return probability / 100;
   }
-
 
   getCardSize() {
     return 4;
   }
 
   getUnit(unit) {
-    return this._hass.config.unit_system[unit] || '';
+    return this._hass.config.unit_system[unit] || "";
   }
 
   getWeatherIcon(condition) {
@@ -481,162 +632,183 @@ class WeatherCardChart extends Polymer.Element {
   getWindDir(deg) {
     if (locale[this.lang] === undefined)
       return locale.en.cardinalDirections[parseInt((deg + 11.25) / 22.5)];
-    return locale[this.lang]['cardinalDirections'][parseInt((deg + 11.25) / 22.5)];
+    return locale[this.lang]["cardinalDirections"][
+      parseInt((deg + 11.25) / 22.5)
+    ];
   }
 
-  getAqiLevel(aqi){
-    return locale[this.lang]['aqiLevels'][parseInt(aqi / 50.0)];
+  getAqiLevel(aqi) {
+    return locale[this.lang]["aqiLevels"][parseInt(aqi / 50.0)];
   }
 
   drawChart(mode, forecastData) {
     if (!forecastData) {
       return [];
     }
-    var data = forecastData.slice(0,9);
-    var locale = this._hass.selectedLanguage || this._hass.language;
-    var tempUnit = this._hass.config.unit_system.temperature;
-    var lengthUnit = this._hass.config.unit_system.length;
-    var precipUnit = lengthUnit === 'km' ? this.ll('uPrecip') : 'in';
+    var data = forecastData.slice(0, 9);
+    const locale = this._hass.language;
+    const lengthUnit = this._hass.config.unit_system.length;
+    const unitMap = {
+      TempAxis: this._hass.config.unit_system.temperature,
+      PopAxis: "%",
+      PrecipAxis: lengthUnit === "km" ? this.ll("uPrecip") : "in"
+    };
     var i;
 
     var dateTime = [];
     var tempHigh = [];
     var tempLow = [];
     var precip = [];
+    var pop = [];
     for (i = 0; i < data.length; i++) {
       var d = data[i];
-      dateTime.push(new Date(Date.parse(d.datetime.replace(/-/g, '/'))));
+      dateTime.push(new Date(Date.parse(d.datetime.replace(/-/g, "/"))));
       tempHigh.push(d.temperature);
       tempLow.push(d.templow);
       precip.push(d.precipitation);
+      pop.push(d.probable_precipitation);
     }
     var style = getComputedStyle(document.body);
-    var textColor = style.getPropertyValue('--primary-text-color');
-    var dividerColor = style.getPropertyValue('--divider-color');
+    var textColor = style.getPropertyValue("--primary-text-color");
+    var dividerColor = style.getPropertyValue("--divider-color");
     const chartOptions = {
-      type: 'bar',
-      data: {
-        labels: dateTime,
-        datasets: [
-          {
-            label: this.ll('tempHi'),
-            type: 'line',
-            data: tempHigh,
-            yAxisID: 'TempAxis',
-            borderWidth: 2.0,
-            lineTension: 0.4,
-            pointRadius: 0.0,
-            pointHitRadius: 5.0,
-            fill: false,
-          },
-          {
-            label: this.ll('tempLo'),
-            type: 'line',
-            data: tempLow,
-            yAxisID: 'TempAxis',
-            borderWidth: 2.0,
-            lineTension: 0.4,
-            pointRadius: 0.0,
-            pointHitRadius: 5.0,
-            fill: false,
-          },
-          {
-            label: this.ll('precip'),
-            type: 'bar',
-            data: precip,
-            yAxisID: 'PrecipAxis',
-          },
-
-        ]
-      },
-      options: {
-        animation: {
-          duration: 300,
-          easing: 'linear',
-          onComplete: function () {
-            var chartInstance = this.chart,
-              ctx = chartInstance.ctx;
-            ctx.fillStyle = textColor;
-            var fontSize = 10;
-            var fontStyle = 'normal';
-            var fontFamily = 'Roboto';
-            ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'bottom';
-            var meta = chartInstance.controller.getDatasetMeta(2);
-            meta.data.forEach(function (bar, index) {
-              var data = (Math.round((chartInstance.data.datasets[2].data[index]) * 10) / 10).toFixed(1);
-              ctx.fillText(data, bar._model.x, bar._model.y - 5);
-            });
-          },
+      type: "bar",
+      datasets: [
+        {
+          label: this.ll("tempHi"),
+          type: "line",
+          borderColor: "#b3051f",
+          data: tempHigh,
+          yAxisID: "TempAxis",
+          borderWidth: 1.5,
+          lineTension: 0.4,
+          pointRadius: 0.0,
+          pointHitRadius: 5.0,
+          fill: false,
         },
+        {
+          label: this.ll("tempLo"),
+          type: "line",
+          borderColor: "#0539b3",
+          data: tempLow,
+          yAxisID: "TempAxis",
+          borderWidth: 1.5,
+          lineTension: 0.4,
+          pointRadius: 0.0,
+          pointHitRadius: 5.0,
+          fill: false,
+        },
+        {
+          label: this.ll("pop"),
+          type: "bar",
+          backgroundColor: "#b5af0e",
+          data: pop,
+          yAxisID: "PopAxis",
+          maxBarThickness: 15,
+        },
+        {
+          label: this.ll("precip"),
+          type: "bar",
+          borderColor: "#0a8062",
+          backgroundColor: "#0a8062",
+          data: precip,
+          yAxisID: "PrecipAxis",
+          maxBarThickness: 15,
+        },
+      ],
+      labels: dateTime,
+      options: {
+        // animation: {
+        //   duration: 300,
+        //   easing: 'linear',
+        //   onComplete: function () {
+        //     var chartInstance = this.chart,
+        //       ctx = chartInstance.ctx;
+        //     ctx.fillStyle = textColor;
+        //     var fontSize = 10;
+        //     var fontStyle = 'normal';
+        //     var fontFamily = 'Roboto';
+        //     ctx.font = Chart.helpers.fontString(fontSize, fontStyle, fontFamily);
+        //     ctx.textAlign = 'center';
+        //     ctx.textBaseline = 'bottom';
+        //     var meta = chartInstance.controller.getDatasetMeta(3);
+        //     meta.data.forEach(function (bar, index) {
+        //       var data = (Math.round((chartInstance.data.datasets[3].data[index]) * 10) / 10).toFixed(1);
+        //       ctx.fillText(data, bar._model.x, bar._model.y - 5);
+        //     });
+        //     var meta2 = chartInstance.controller.getDatasetMeta(2);
+        //     meta2.data.forEach(function (bar, index) {
+        //       var data = chartInstance.data.datasets[2].data[index] + '%';
+        //       ctx.fillText(data, bar._model.x, bar._model.y - 5);
+        //     });
+        //   },
+        // },
         legend: {
           display: false,
         },
         scales: {
-          xAxes: [{
-            type: 'time',
-            maxBarThickness: 15,
-            display: false,
-            ticks: {
-              display: false,
-            },
-            gridLines: {
-              display: false,
-            },
-          },
-          {
-            id: 'DateAxis',
-            position: 'top',
-            gridLines: {
+          x: {
+            offset: true,
+            position: "top",
+            grid: {
+              color: textColor,
               display: true,
+              offset: true,
+              borderDash: [1, 5],
               drawBorder: false,
-              color: dividerColor,
+              drawOnChartArea: true,
+              drawTicks: false,
             },
             ticks: {
               display: true,
-              source: 'labels',
+              source: "labels",
               autoSkip: true,
-              fontColor: textColor,
+              color: textColor,
               maxRotation: 0,
-              callback: function(value, index, values) {
-                var data = value.toLocaleDateString(locale,
-                  { weekday: 'short' });
-                var time = value.toLocaleTimeString(locale,
-                  { hour: 'numeric' });
-                if (mode == 'hourly') {
+              callback: function (value, index, values) {
+                if (mode == "hourly") {
+                  var time = new Date(dateTime[value]).toLocaleTimeString(
+                    "en",
+                    {
+                      hour: "numeric",
+                    }
+                  );
                   return time;
+                } else {
+                  return new Date(dateTime[value]).toLocaleDateString(locale, {
+                    weekday: "short",
+                  });
                 }
-                return data;
               },
             },
-          }],
-          yAxes: [{
-            id: 'TempAxis',
-            position: 'left',
-            gridLines: {
+          },
+          TempAxis: {
+            id: "TempAxis",
+            position: "left",
+            grid: {
               display: true,
-              drawBorder: false,
-              color: dividerColor,
-              borderDash: [1,3],
+              drawBorder: true,
+              drawOnChartArea: true,
+              drawTicks: true,
+              borderDash: [1, 8],
             },
             ticks: {
-              maxTicksLimit:8,
-              stepSize:1,
+              stepSize: 2,
               display: true,
-              fontColor: textColor,
+              color: textColor,
             },
-            afterFit: function(scaleInstance) {
+            afterFit: function (scaleInstance) {
               scaleInstance.width = 28;
             },
           },
-          {
-            id: 'PrecipAxis',
-            position: 'right',
-            gridLines: {
+          PrecipAxis: {
+            id: "PrecipAxis",
+            position: "right",
+            grid: {
               display: false,
               drawBorder: false,
-              color: dividerColor,
+              drawOnChartArea: false,
+              drawTicks: true,
             },
             ticks: {
               display: false,
@@ -644,32 +816,49 @@ class WeatherCardChart extends Polymer.Element {
               suggestedMax: 20,
               fontColor: textColor,
             },
-            afterFit: function(scaleInstance) {
+            afterFit: function (scaleInstance) {
               scaleInstance.width = 15;
             },
-          }],
-        },
-        tooltips: {
-          mode: 'index',
-          callbacks: {
-            title: function (items, data) {
-              const item = items[0];
-              const date = data.labels[item.index];
-              return new Date(date).toLocaleDateString(locale, {
-                month: 'long',
-                day: 'numeric',
-                weekday: 'long',
-                hour: 'numeric',
-                minute: 'numeric',
-              });
+          },
+          PopAxis: {
+            id: "PopAxis",
+            position: "right",
+            grid: {
+              display: false,
+              drawBorder: false,
+              drawOnChartArea: false,
+              drawTicks: true,
             },
-            label: function(tooltipItems, data) {
-              var label = data.datasets[tooltipItems.datasetIndex].label || '';
-              if (data.datasets[2].label == label) {
-                return label + ': ' + (tooltipItems.yLabel ?
-                  (tooltipItems.yLabel + ' ' + precipUnit) : ('0 ' + precipUnit));
-              }
-              return label + ': ' + tooltipItems.yLabel + ' ' + tempUnit;
+            ticks: {
+              display: false,
+              min: 0,
+              // max: 100,
+              suggestedMax: 110,
+              fontColor: textColor,
+            },
+            afterFit: function (scaleInstance) {
+              scaleInstance.width = 15;
+            },
+          },
+        },
+        plugins: {
+          tooltip: {
+            mode: "index",
+            callbacks: {
+              title: function (items) {
+                const item = items[0];
+                const date = item.label;
+                return new Date(date).toLocaleDateString(locale, {
+                  month: "long",
+                  day: "numeric",
+                  weekday: "short",
+                  hour: "numeric",
+                });
+              },
+              label: function (context) {
+                var label = context.dataset.label || "";
+                return label + ": " + context.parsed.y + " " + unitMap[context.dataset.yAxisID];
+              },
             },
           },
         },
@@ -681,11 +870,11 @@ class WeatherCardChart extends Polymer.Element {
   _fire(type, detail, options) {
     const node = this.shadowRoot;
     options = options || {};
-    detail = (detail === null || detail === undefined) ? {} : detail;
+    detail = detail === null || detail === undefined ? {} : detail;
     const e = new Event(type, {
       bubbles: options.bubbles === undefined ? true : options.bubbles,
       cancelable: Boolean(options.cancelable),
-      composed: options.composed === undefined ? true : options.composed
+      composed: options.composed === undefined ? true : options.composed,
     });
     e.detail = detail;
     node.dispatchEvent(e);
@@ -693,21 +882,18 @@ class WeatherCardChart extends Polymer.Element {
   }
 
   _tempAttr() {
-    this._fire('hass-more-info', { entityId: this.config.temp });
+    this._fire("hass-more-info", { entityId: this.config.temp });
   }
 
   _weatherAttr() {
-    this._fire('hass-more-info', { entityId: this.config.entity });
+    this._fire("hass-more-info", { entityId: this.config.entity });
   }
 
   _sunAttr() {
-    this._fire('hass-more-info', { entityId: this.sunObj.entity_id });
+    this._fire("hass-more-info", { entityId: this.sunObj.entity_id });
   }
 
-  _suggestionAttr() {
-
-  }
+  _suggestionAttr() {}
 }
 
-
-customElements.define('hf_weather-card', WeatherCardChart);
+customElements.define("hf_weather-card", WeatherCardChart);
