@@ -1,4 +1,7 @@
 ### 更新日志 ###
+- 2023-09-07  
+1. 修改 api 为和风天气官方 （原京东万象api停止运营）
+2. 修复小时视图，降水量为空的Bug
 - 2022-01-24
 1. 适配 chart.js v3+ 支持 core-2021.7.1 后续版本
 - 2019-08-23
@@ -23,6 +26,16 @@ entity: weather.air
 mode: daily
 title: 天气
 icons: /local/hf_weather-card/icons/animated/
+``` 
+
+#### Configuration 
+
+```yaml
+weather:
+  - platform: hf_weather
+    name: air              # 必填，自定义实体名称，生成实体的entityId为weather.{{test}}，后续配置需要用到
+    city: 101110101    # 必填，城市代码，支持城市中英文名称、ID和IP地址，例如city=北京，city=beijing，city=CN101010100，city= 60.194.130.1，建议使用ID
+    appkey: xxxxx    # 必填，和风天气api平台申请的key
 ```
 
 ### 参考 ###
