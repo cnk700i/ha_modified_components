@@ -333,7 +333,7 @@ class WeatherData(object):
         """生活建议."""
         return self._suggestion
     
-    def formatDateTime(self, input_time):
+    def format_datetime(self, input_time):
         parsed_time = datetime.fromisoformat(input_time)
         return parsed_time.strftime("%Y-%m-%d %H:%M")
 
@@ -341,7 +341,10 @@ class WeatherData(object):
     async def fetch_url(self, session, url, params):
         async with session.get(url, params=params) as response:
             return await response.json()
-
+        
+    def parse_condition(self, text):
+        match_list = [k for k, v in CONDITION_CLASSES.items() if text in v]
+        return match_list[0] if match_list else 'unknown'
 
     @asyncio.coroutine
     async def async_update(self, now):
@@ -384,15 +387,15 @@ class WeatherData(object):
                      self._pressure = int(result["now"]["pressure"])
                      self._wind_speed = float(result["now"]["windSpeed"])
                      self._wind_bearing = float(result["now"]["wind360"])
-                     self._updatetime = self.formatDateTime(result["updateTime"])
+                     self._updatetime = self.format_datetime(result["updateTime"])
                      self._condition = result["now"]["text"]
                  elif endpoint == 'suggestion':
                      self._suggestion = [{'title': TRANSLATE_SUGGESTION.get(suggestion["type"], suggestion["type"]), 'title_cn': suggestion["name"], 'brf': suggestion["category"], 'txt': suggestion["text"] } for suggestion in result["daily"]]
                  elif endpoint == '7d':
-                     self._daily_forecast = [[forecast["textDay"], int(forecast["tempMax"]), int(forecast["tempMin"]), forecast["fxDate"], forecast["precip"], "0"] for forecast in result["daily"]]
+                     self._daily_forecast = [[self.parse_condition(forecast["textDay"]), int(forecast["tempMax"]), int(forecast["tempMin"]), forecast["fxDate"], forecast["precip"], "0"] for forecast in result["daily"]]
                  elif endpoint == '24h':
                      latest7h = result["hourly"][:7]
-                     self._hourly_forecast = [[hour["text"], int(hour["temp"]), self.formatDateTime(hour["fxTime"]), hour["pop"], hour['precip']] for hour in latest7h]
+                     self._hourly_forecast = [[hour["text"], int(hour["temp"]), self.format_datetime(hour["fxTime"]), hour["pop"], hour['precip']] for hour in latest7h]
             else: 
                 return
 
