@@ -4,7 +4,9 @@
   "documentation": "https://ljr.im",
   "requirements": [],
   "dependencies": [],
+  "version": "1.0.0",
   "codeowners": [
-    "@cnk700i"
+    "@cnk700i",
+    "@ettingshausen"
   ]
 }
